@@ -1,0 +1,17 @@
+﻿<Window x:Name="wndBasics" x:Class="Wpf_Basics.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Basics"
+        mc:Ignorable="d"
+        Title="C# Basics" Height="450" Width="616.8" Background="LightBlue">
+    <Grid>
+        <TextBox x:Name="txtIngave" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="121,34,0,0"/>
+        <Label Content="Ingave :" HorizontalAlignment="Left" Margin="32,34,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstGegevens" HorizontalAlignment="Left" Height="317" Margin="32,71,0,0" VerticalAlignment="Top" Width="396"/>
+        <Button x:Name="btnLijstLeegmaken" Content="Maak Lijst Leeg" HorizontalAlignment="Left" Margin="269,31,0,0" VerticalAlignment="Top" Width="159" Height="26"/>
+        <Button x:Name="btnOef1" Content="Oefening 1" HorizontalAlignment="Left" Margin="477,71,0,0" VerticalAlignment="Top" Width="87"/>
+
+    </Grid>
+</Window>
